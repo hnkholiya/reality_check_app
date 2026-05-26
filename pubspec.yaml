@@ -1,0 +1,70 @@
+name: reality_check_purchase
+description: A premium Flutter app for smart purchase decision making.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  # ── Icons ──
+  cupertino_icons: ^1.0.6
+  firebase_core: any
+
+  # ── Local Storage (replaces Firebase for frontend-only) ──
+  shared_preferences: ^2.2.2
+
+  # ── UUID generation for history items ──
+  uuid: ^4.3.3
+
+  # ── URL Launcher (open product links) ──
+  url_launcher: ^6.2.4
+
+  # ── Intl (date + currency formatting) ──
+  intl: ^0.19.0
+
+  # ── Haptic feedback (already using Flutter built-in) ──
+  # No extra package needed
+
+  # ── Share Plus (share result screen) ──
+  share_plus: ^7.2.2
+
+  # ── Image Picker (profile photo — optional) ──
+  image_picker: ^1.0.7
+  firebase_auth: ^6.4.0
+
+  # ── Lottie (optional: for animations) ──
+  # lottie: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ── Fonts (optional — uses system font by default) ──
+  # To add a custom font like Inter:
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: assets/fonts/Inter-Regular.ttf
+  #       - asset: assets/fonts/Inter-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Inter-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/Inter-Bold.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/Inter-ExtraBold.ttf
+  #         weight: 800
+
+  # ── Assets ──
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/

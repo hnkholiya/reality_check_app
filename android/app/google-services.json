@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1093127153668",
+    "project_id": "reality-check-app-69edc",
+    "storage_bucket": "reality-check-app-69edc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093127153668:android:baa327f7de5b2209fbad51",
+        "android_client_info": {
+          "package_name": "com.example.reality_test_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB28Oyqulwbb7oGvmVe6-jyyASyKiV_bkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
